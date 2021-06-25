@@ -42,6 +42,7 @@ header a:hover {
 }
 
 .intro {
+  text-shadow: 2px 2px 3px #000000;
   font-size: 55px;
 }
 
@@ -51,6 +52,7 @@ header a:hover {
 
 /* About */
 #about {
+  background-color: #C4C4C4;
   padding: 4vh 0;
   font-family: 'Lato', sans-serif;
 }
@@ -58,6 +60,7 @@ header a:hover {
 #about h2 {
   font-family: 'Josefin Sans', sans-serif;
   color: #0F074A;
+  text-shadow: 2px 2px 3px #8A8D85;
 }
 
 #about a {
@@ -65,7 +68,7 @@ header a:hover {
 }
 
 #about a:hover {
-  color: #B2B2B2;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -75,13 +78,6 @@ header a:hover {
   border: solid 3px #0F074A;
   height: 325px;
   width: 325px;
-}
-
-#profile-img img {
-  object-fit: cover;
-  height: 325px;
-  width: 325px;
-  border-radius: 100%;
 }
 
 /* Projects */
@@ -94,6 +90,7 @@ header a:hover {
   font-family: 'Josefin Sans', sans-serif;
   color: white;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 3px #000000;
 }
 
 .card {
@@ -108,12 +105,17 @@ header a:hover {
   font-family: 'Lato', sans-serif;
 }
 
+.card-body {
+  background-color: #C4C4C4;
+}
+
 .card-body a {
   font-family: 'Lato', sans-serif;
 }
 
 /* Contact */
 #contact {
+  background-color: #C4C4C4;
   padding: 4vh 0;
   text-align: center;
 }
@@ -121,6 +123,7 @@ header a:hover {
 #contact h2 {
   font-family: 'Josefin Sans', sans-serif;
   color: #0F074A;
+  text-shadow: 2px 2px 3px #8A8D85;
 }
 
 #contact p {
