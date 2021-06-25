@@ -1,0 +1,193 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;*/
+html {
+  scroll-behavior: smooth;
+}
+/* Header */
+header {
+  background-color: #0F074A;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header a {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  margin: 20px 70px;
+}
+
+header a:hover {
+  color: #FFFFFF;
+}
+
+.name-circle {
+  text-align: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 100%;
+  border: #FFFFFF solid 3px;
+}
+
+.jl-a {
+  text-align: center;
+}
+
+/* Introduction */
+#introduction {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #FFFFFF;
+  background-color: #0F074A;
+
+  height: 85vh;
+  padding-top: 30vh;
+}
+
+.intro {
+  font-size: 55px;
+}
+
+#job-title {
+  font-weight: 300;
+}
+
+/* About */
+#about {
+  padding: 4vh 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#about h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #0F074A;
+}
+
+#about a {
+  color: #0F074A;
+}
+
+#about a:hover {
+  color: #B2B2B2;
+  text-decoration: none;
+}
+
+#profile-img {
+  border-radius: 100%;
+  border: solid 3px #0F074A;
+  height: 325px;
+  width: 325px;
+}
+
+/* Projects */
+#projects {
+  background-color: #0F074A;
+  padding: 4vh 0;
+}
+
+#projects h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 40px;
+}
+
+.card-title {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.card-text {
+  font-family: 'Lato', sans-serif;
+}
+
+.card-body a {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Contact */
+#contact {
+  padding: 4vh 0;
+  text-align: center;
+}
+
+#contact h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #0F074A;
+}
+
+#contact p {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.social a {
+  font-size: 2rem;
+  color: #0F074A;
+}
+
+.social a:hover {
+  color:#0F074A;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #0F074A;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer a:hover {
+  color: #B2B2B2;
+  text-decoration: none;
+}
+
+#footer-p {
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}
+
+/* Media Queries */
+@media (min-width: 400px) and (max-width: 767px) {
+  header .nav-link {
+    font-size: 15px;
+  }
+  header .nav-item {
+    height: 50px;
+  }
+  .name-circle {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  #introduction {
+    padding-top: 15vh;
+  }
+  .intro {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1165px) {
+  header .nav-link {
+    font-size: 15px;
+  }
+  header .nav-item {
+    width: 20vw;
+  }
+
+  .name-circle {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  #introduction {
+    padding-left: 20vw;
+  }
+
+}

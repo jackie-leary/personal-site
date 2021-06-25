@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jacqueline Leary | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="effects.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400;500;600;700&family=Lato&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+  </head>
+  <!-- Welcome to my site's HTML! -->
+  <body>
+
+    <header id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-md justify-content-center">
+          <div class="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link jl-a name-circle hvr-bob" href="#header">JL<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-bob" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-bob" href="#projects">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-bob" href="#contact">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-bob" href="#contact">RESUME</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="introduction">
+      <div class="container">
+        <h1 class="intro fade-in-top" id="name">Hi, I'm Jacqueline Leary!</h1>
+        <h1 class="intro fade-in-top-2" id="job-title">I'm a front-end software engineer.</h1>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>Hello!</h2>
+            <p>I'm a front-end software engineer based just outside of Boston, MA.
+            Most people call me Jackie. I primarily work with HTML5, CSS3 and JavaScript (ES6),
+            but I love learning about back-end languages and tools and incorporating them into my projects.</p>
+            <p>Here are a few technologies I've been working with recently:</p>
+
+            <div class="row">
+              <div class="col-xs-6">
+                <ul>
+                  <li>JavaScript (ES6)</li>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+                  <li>Node.js</li>
+                </ul>
+              </div>
+              <div class="col-xs-6">
+                <ul>
+                  <li>API Integration</li>
+                  <li>Express</li>
+                  <li>MongoDB</li>
+                  <li>Python</li>
+                </ul>
+              </div>
+            </div>
+
+            <p>Currently, I volunteer as a facilitator at <a href="https://chingu.io/">Chingu</a>, where I help other developers improve their skills and learn about Agile, Scrum, and Kanban methodologies.</p>
+
+          </div>
+
+          <div class="hvr-bob col-md-4">
+            <img id="profile-img" src="images/behind-computer.jpg" alt="rando behind computer">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+
+        <!-- Row 1 -->
+        <div class="row">
+          <div class="col-xl-4 col-md-6">
+            <div class="card hvr-bob" style="width: 22rem;">
+              <img class="card-img-top" src="images/astrowatch.PNG" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">AstroWatch</h5>
+                <p class="card-text">An application that displays data from NASA's Near Earth Objects and Daily Image APIs.
+                  The app also collects user information and stores them in a database.</p>
+                <p>Technologies: React, MongoDB, Express, Node.js</p>
+                <p>AstroWatch is a Chingu group project. All three of us planned six one-week sprints on Trello using agile methodology. 
+                  I had a blast building the front-end and connecting the app to our MongoDB database.</p>
+                <a href="https://astro-deck.herokuapp.com/" class="btn btn-primary"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/chingu-voyages/v30-geckos-team-03" class="btn btn-primary"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6">
+            <div class="card hvr-bob" style="width: 22rem;">
+              <img class="card-img-top" src="images/notes-app.PNG" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Notes App</h5>
+                <p class="card-text">An application that stores notes. </p>
+                <p>Technologies: React, CSS Grid</p>
+                <p>Notes App is a solo project I designed using Figma. I learned about the "useState" hook in React and used CSS grid to make the app responsive.</p>
+                <a href="https://notes-app-0851f9.netlify.app/" class="btn btn-primary"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/jackie-leary/notes-app" class="btn btn-primary"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6">
+            <div class="card hvr-bob" style="width: 22rem;">
+              <img class="card-img-top" src="images/spacebnb.PNG" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">SpaceBNB</h5>
+                <p class="card-text">A clone of AirBNB's landing page.</p>
+                <p>Technologies: HTML5/CSS3/JavaScript(ES6) and Bootstrap</p>
+                <p>SpaceBNB is a front-end solo project. I'm currently working on adding a user database and authentication.</p>
+                <a href="https://spacebnb845.netlify.app/" class="btn btn-primary"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/jackie-leary/spacebnb" class="btn btn-primary"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+        <!-- Row 2 -->
+          <div class="col-xl-4 col-md-6">
+            <div class="card hvr-bob" style="width: 22rem;">
+              <img class="card-img-top" src="images/python-project.PNG" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">June Birthday Calendar Generator</h5>
+                <p class="card-text">A Python program that creates a dictionary to which birthdays can be added or deleted from. 
+                  The program prints how old each person in the final dictionary will be this year, as well as creates a birthday calendar using tkinter.</p>
+                <p>Technologies: Python, tkinter, datetime, openpyxl modules</p>
+                <p>This calendar generator was my final project for Stanford's Code In Place course. </p>
+                <a href="https://compedu.stanford.edu/codeinplace/public/projects/1425.html" class="btn btn-primary"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/jackie-leary/code-in-place-2020" class="btn btn-primary"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6">
+            <div class="card hvr-bob" style="width: 22rem;">
+              <img class="card-img-top" src="images/fischer-brokers.PNG" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Fischer Brokers</h5>
+                <p class="card-text">A landing page for Fischer Brokers. </p>
+                <p>Technologies: HTML5/CSS3/JavaScript(ES6) and Bootstrap</p>
+                <p>This landing page includes a Bootstrap Carousel to showcase listings.</p>
+                <a href="http://www.fischerbrokers.com/" class="btn btn-primary"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/jackie-leary/Fischer-Brokers" class="btn btn-primary"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6">
+            <div class="card hvr-bob" style="width: 22rem;">
+              <img class="card-img-top" src="images/animal-avatar.PNG" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Wild Avatar Kingdom</h5>
+                <p class="card-text">A quiz app that generates an animal avatar based on user input. Users can reset and shuffle the questions.</p>
+                <p>Technologies: HTML5/CSS3/JavaScript(ES6) and Bootstrap.</p>
+                <p>Wild Avatar Kingdom was my first Chingu group project. I enjoyed learning about Git, Github and Kanban methodology. 
+                  I modified Bootstrap's carousel styles and used JavaScript for the quiz's functionality.</p>
+                <a href="https://wild-avatar-kingdom.netlify.app/index.html" class="btn btn-primary"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/chingu-voyages/v28-toucans-team-01" class="btn btn-primary"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Have a question or want to work together?</h2>
+        <p>jackie.leary02@gmail.com</p>
+        <p>(561) 670-9414</p>
+        <div class="social">
+          <a class="hvr-bob" href="https://www.linkedin.com/in/jacqueline-leary-9a708111b/"><i class="fab fa-linkedin"></i></a>
+          <a class="hvr-bob" href="https://github.com/jackie-leary"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg justify-content-center">
+          <div class="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">WELCOME<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">RESUME</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <p id="footer-p">Made with <i class="fas fa-magic"></i> using Bootstrap. Inspired by <a href="http://lesleyhogg.com/">Lesley Hogg.</a></p>
+      </div>
+    </footer>
+
+
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
