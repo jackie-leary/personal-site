@@ -70,10 +70,18 @@ header a:hover {
 }
 
 #profile-img {
+  object-fit: cover;
   border-radius: 100%;
   border: solid 3px #0F074A;
   height: 325px;
   width: 325px;
+}
+
+#profile-img img {
+  object-fit: cover;
+  height: 325px;
+  width: 325px;
+  border-radius: 100%;
 }
 
 /* Projects */
